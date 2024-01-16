@@ -1,0 +1,45 @@
+h3 {
+  background-color: greenyellow;
+  display: inline;
+  margin-top: 40px;
+}
+.kalkulator {
+  border: solid 1rem greenyellow;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  align-items: center;
+  background-color: blueviolet;
+  max-width: 100%;
+}
+button {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 5px;
+  font-size: 14pt;
+}
+.opr {
+  color: greenyellow;
+  background-color: grey;
+}
+.end {
+  background-color: orange;
+}
+body {
+  display: flex;
+  justify-content: center; /* Centrira horizontalno */
+  align-items: center; /* Centrira vertikalno */
+  height: 100vh; /* Puni visina ekrana */
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: lightcoral;
+}
+input {
+  margin-top: 20px;
+  height: 30px;
+  width: 200px;
+}
+#kalkulator-display {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 21pt;
+}
